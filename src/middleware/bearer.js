@@ -12,6 +12,8 @@ module.exports = async (req, res, next) => {
     const validUser = await users.authenticateToken(token);
     req.user = validUser;
     req.token = validUser.token;
+    console.log(req.user)
+    console.log(req.user.role)
     next();
 
   } catch (e) {
