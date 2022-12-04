@@ -2,7 +2,7 @@
 
 ## Live Deploy
 
-[Heroku]()
+[Heroku](https://auth-api-m11gz.herokuapp.com/)
 
 ## Deployment
 
